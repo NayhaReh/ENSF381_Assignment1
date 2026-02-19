@@ -11,6 +11,12 @@ header{
     border-bottom: 5px solid #e4b48c;
 }
 
+footer {
+    background-color: #f9e2c8;
+    text-align: center;
+    padding: 15px;
+    border-top: 5px solid #e4b48c;
+}
 
 .navbar{
     background-color: #fff3e0;
