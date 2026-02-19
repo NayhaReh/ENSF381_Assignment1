@@ -120,6 +120,11 @@ input[type="text"], input[type="password"] {
     flex-wrap: wrap;
 }
 
+.menu-list-special {
+    display: flex;
+    justify-content: center;
+}
+
 .menu-item {
     background-color: #ffffff;
     border-radius: 20px;
@@ -136,7 +141,7 @@ input[type="text"], input[type="password"] {
     border-radius: 10px;
 }
 
-.menu-item a {
+.menu-item .customize {
     display: inline-block;
     text-decoration: none;
     background-color: #f28c8c;
@@ -148,4 +153,28 @@ input[type="text"], input[type="password"] {
 
 .fixed-width {
     width: 100%;
+}
+
+.menu-special {
+    width: 170px;
+}
+
+.menu-item button {
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 12px;
+    padding: 8px 14px;
+}
+
+.menu-item button:hover {
+    cursor: pointer;
+}
+
+.menu-item .add {
+    background-color: #f28c8c;
+}
+
+.menu-item .remove {
+    background-color: #c94c4c;
 }
