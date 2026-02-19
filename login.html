@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sweet Scoop Ice Cream Login</title>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpeg" width="70" height="70" alt="Logo Image">
+        <h1>Sweet Scoop Ice Cream</h1>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a> 
+    </div>
+
+    <div class="main-flex">
+        <main>
+            <form>
+                <br>
+                <h2>Welcome Back!</h2>
+
+                <label for="username">Username:</label> <br>
+                <input type="text" id="username" name="username"> <br>
+
+                <br>
+
+                <label for="password">Password:</label> <br>
+                <input type="password" id="password" name="password"> <br>
+
+                <br>
+
+                <input type="checkbox" id="forgot-pass" name="forgot-pass">
+                <label for="forgot-pass">Forgot Password</label> <br>
+
+                <br> <br>
+
+                <!--NOTE: I made this "button" using a link, so the cursor already switches to a pointer by default... I'm not sure if I was-->
+                <!--supposed to do it this way, but I don't know how to make the <button> element clickable with a link without using JavaScript-->
+                <a href="menu_view.html" class="login">Login</a>
+            </form>
+
+            <br> <br> <br> <br>
+        </main>
+    </div>
+
+    <footer>
+        <div>© 2026 Sweet Scoop Ice Cream</div>
+    </footer>
+</body>
+</html>
