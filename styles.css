@@ -107,3 +107,19 @@ input[type="text"], input[type="password"] {
 .login:hover {
     cursor: pointer;
 }
+
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.season-dropdown{
+    background-color: #fff8ee;
+    border-radius: 10px;
+    padding: 6px, 10px;
+    border: 1px solid #e4b48c;
+    font-family: inherit;
+    color: brown;
+}
