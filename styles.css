@@ -180,7 +180,7 @@ input[type="text"], input[type="password"] {
 }
 
 
-.customize{
+.customize {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,7 @@ input[type="text"], input[type="password"] {
     
 }
 
-.customs button{
+.customs button {
     color: white;
     background-color: #f28c8c;
     font-weight: bold;
@@ -200,22 +200,22 @@ input[type="text"], input[type="password"] {
     margin-top: 10px;
 }
 
-.customs button:hover{
+.customs button:hover {
     color: white;
-    background-color: #f1b2b2;
+    background-color: #b06666;
     font-weight: bold;
     border: 0px;
     border-radius: 12px;
 }
 
-.banner{
+.banner {
     display: block;
     margin: 50px auto 30px auto;
     border-radius: 15px;
     width: 20%;
 }
 
-.finish-container{
+.finish-container {
     margin-top: 20px;
     text-align: center;
 }
