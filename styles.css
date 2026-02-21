@@ -89,21 +89,18 @@ main form {
 
 input[type="text"], input[type="password"] {
     background-color: #fff8ee;          
-    /* Do we need border colour too? Assignment doesn't mention anything
-       but it looks strange as it is, and the borders on the example page
-       are clearly a different colour?? */
+    border-color: #e4b48c;
 }
 
 .login {
-    text-decoration: none;
     background-color: #f28c8c;
     color: white;
     font-weight: bold;
     border-radius: 12px;
     padding: 8px 14px;
+    border-width: 0px;
 }
 
-/* Currently redundant since I made login a link, cursor changes to pointer on its own */
 .login:hover {
     cursor: pointer;
 }
@@ -132,10 +129,9 @@ input[type="text"], input[type="password"] {
     margin: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 290px;   /* Estimate based on how webpage looks */
+    width: 290px; 
 }
 
-/* No image formatting specified - did my best to make it look like the photo */
 .menu-item img {
     width: 150px;
     border-radius: 10px;
