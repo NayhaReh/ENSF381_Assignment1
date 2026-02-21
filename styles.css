@@ -202,10 +202,16 @@ input[type="text"], input[type="password"] {
 
 .customs button:hover {
     color: white;
-    background-color: #b06666;
     font-weight: bold;
     border: 0px;
     border-radius: 12px;
+    cursor: pointer;
+}
+
+input[type="radio"], 
+input[type="checkbox"], 
+label {
+    cursor: pointer;
 }
 
 .banner {
@@ -230,10 +236,6 @@ input[type="text"], input[type="password"] {
     padding: 12px 24px;
     font-size: 1.1em;
     margin: 20px;
-}
-
-.btn-finish:hover {
-    background-color: #b06666;
 }
 
 .summary {
