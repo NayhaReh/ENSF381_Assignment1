@@ -21,6 +21,8 @@ footer {
     border-top: 5px solid #e4b48c;
 }
 
+/* Homepage Formatting */
+
 .navbar{
     background-color: #fff3e0;
     display: flex;
@@ -83,6 +85,8 @@ footer {
     margin-bottom: 10px; /* Adds a little space between flavors */
 }
 
+/* Login Formatting */
+
 main form {
     text-align: center;
 }
@@ -104,6 +108,8 @@ input[type="text"], input[type="password"] {
 .login:hover {
     cursor: pointer;
 }
+
+/* Menu Formatting */
 
 .dropdown {
     background-color: #fff8ee;
@@ -175,6 +181,7 @@ input[type="text"], input[type="password"] {
     background-color: #c94c4c;
 }
 
+/* Customize Order Formatting */
 
 .customize {
     display: flex;
@@ -231,6 +238,8 @@ input[type="text"], input[type="password"] {
 .btn-finish:hover {
     background-color: #b06666;
 }
+
+/* Order Summary Formatting */
 
 .summary {
     margin-top: 50px;
