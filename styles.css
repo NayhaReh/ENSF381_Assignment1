@@ -21,6 +21,8 @@ footer {
     border-top: 5px solid #e4b48c;
 }
 
+/* Homepage Formatting */
+
 .navbar{
     background-color: #fff3e0;
     display: flex;
@@ -83,30 +85,31 @@ footer {
     margin-bottom: 10px; /* Adds a little space between flavors */
 }
 
+/* Login Formatting */
+
 main form {
     text-align: center;
 }
 
 input[type="text"], input[type="password"] {
     background-color: #fff8ee;          
-    /* Do we need border colour too? Assignment doesn't mention anything
-       but it looks strange as it is, and the borders on the example page
-       are clearly a different colour?? */
+    border-color: #e4b48c;
 }
 
 .login {
-    text-decoration: none;
     background-color: #f28c8c;
     color: white;
     font-weight: bold;
     border-radius: 12px;
     padding: 8px 14px;
+    border-width: 0px;
 }
 
-/* Currently redundant since I made login a link, cursor changes to pointer on its own */
 .login:hover {
     cursor: pointer;
 }
+
+/* Menu Formatting */
 
 .dropdown {
     background-color: #fff8ee;
@@ -132,10 +135,9 @@ input[type="text"], input[type="password"] {
     margin: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 290px;   /* Estimate based on how webpage looks */
+    width: 290px; 
 }
 
-/* No image formatting specified - did my best to make it look like the photo */
 .menu-item img {
     width: 150px;
     border-radius: 10px;
@@ -179,6 +181,7 @@ input[type="text"], input[type="password"] {
     background-color: #c94c4c;
 }
 
+/* Customize Order Formatting */
 
 .customize {
     display: flex;
@@ -237,6 +240,12 @@ label {
     font-size: 1.1em;
     margin: 20px;
 }
+
+.btn-finish:hover {
+    background-color: #b06666;
+}
+
+/* Order Summary Formatting */
 
 .summary {
     margin-top: 50px;
